@@ -25,17 +25,15 @@ http:
 
         className=UserService&methodName=loginFromDB&params=["{{role}}","0a"]
 
+    attack: pitchfork
     payloads:
       path:
         - /smartbi/vision/RMIServlet
         - /vision/RMIServlet
-
       role:
         - system
         - service
         - public
-
-    attack: pitchfork
 
     stop-at-first-match: true
     matchers-condition: and
@@ -44,6 +42,8 @@ http:
         part: body
         words:
           - '"result":true'
+          - '"retCode":'
+        condition: and
 
       - type: word
         part: header

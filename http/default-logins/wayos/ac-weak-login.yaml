@@ -22,7 +22,7 @@ http:
         Host: {{Hostname}}
         Content-Type: application/x-www-form-urlencoded
 
-        user={{username}}&password={{ password }}&Submit=%E7%99%BB%E5%BD%95
+        user={{username}}&password={{password}}&Submit=%E7%99%BB%E5%BD%95
 
     attack: pitchfork
     payloads:

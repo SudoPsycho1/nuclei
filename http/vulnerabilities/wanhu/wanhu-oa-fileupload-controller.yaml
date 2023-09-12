@@ -13,7 +13,7 @@ info:
     max-request: 2
     verified: true
     fofa-query: app="万户网络-ezOFFICE"
-  tags: wanhu,oa,fileupload,controller
+  tags: wanhu,oa,fileupload,controller,intrusive
 
 variables:
   num1: "{{rand_int(1000, 9999)}}"

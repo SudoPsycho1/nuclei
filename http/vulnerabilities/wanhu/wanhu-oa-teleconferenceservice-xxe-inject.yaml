@@ -13,7 +13,7 @@ info:
     max-request: 1
     verified: true
     fofa-query: app="万户网络-ezOFFICE"
-  tags: wanhu,oa,xxe
+  tags: wanhu,oa,xxe,oast
 
 http:
   - raw:

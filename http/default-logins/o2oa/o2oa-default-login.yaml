@@ -24,12 +24,12 @@ http:
 
         {"credential":"{{username}}","password":"{{password}}"}
 
+    attack: pitchfork
     payloads:
       username:
         - 'xadmin'
       password:
         - 'o2'
-    attack: pitchfork
 
     matchers-condition: and
     matchers:

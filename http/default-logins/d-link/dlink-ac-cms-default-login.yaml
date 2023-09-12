@@ -1,4 +1,4 @@
-id: dlink-ac-centralized-management-system-default-login
+id: dlink-ac-cms-default-login
 
 info:
   name: D-Link AC Centralized Management System - Default Login
@@ -10,7 +10,7 @@ info:
     max-request: 1
     verified: true
     fofa-query: title="AC集中管理平台" && body="D-Link路由器管理页"
-  tags: default-login,dlink
+  tags: default-login,dlink,router
 
 http:
   - raw:
@@ -46,4 +46,3 @@ http:
         part: body
         words:
           - "window.open"
-        condition: and

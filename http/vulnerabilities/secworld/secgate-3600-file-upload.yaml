@@ -13,7 +13,7 @@ info:
     verified: "true"
     fofa-query: 'fid="1Lh1LHi6yfkhiO83I59AYg=="'
     max-request: 1
-  tags: secgate,3600,firewall,file-upload,intrusive
+  tags: secgate,firewall,fileupload,intrusive
 
 variables:
   filename: "{{rand_base(6)}}"

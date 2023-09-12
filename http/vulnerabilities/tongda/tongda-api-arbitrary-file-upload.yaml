@@ -12,7 +12,7 @@ info:
     max-request: 1
     fofa-query: app="TDXK-通达OA"
     verified: true
-  tags: tongda,oa
+  tags: tongda,oa,fileupload,intrusive
 
 http:
   - raw:

@@ -21,12 +21,12 @@ http:
 
         UserAgentFrom=iphone&login_username={{username}}&login_password={{password}}
 
+    attack: pitchfork
     payloads:
       username:
         - 'audit-admin'
       password:
         - 'seeyon123456'
-    attack: pitchfork
 
     matchers-condition: and
     matchers:

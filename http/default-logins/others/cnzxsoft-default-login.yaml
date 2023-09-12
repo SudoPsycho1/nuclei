@@ -22,12 +22,12 @@ http:
 
         name={{username}}&password={{password}}&checkcode=ptbh&doLoginSubmit=1
 
+    attack: pitchfork
     payloads:
       username:
         - 'admin'
       password:
         - 'zxsoft1234!@#$'
-    attack: pitchfork
 
     matchers:
       - type: dsl

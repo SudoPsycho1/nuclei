@@ -13,7 +13,7 @@ info:
     max-request: 1
     fofa-query: title="致远A8+协同管理软件.A6"
     verified: true
-  tags: seeyon,oa,info-leak
+  tags: seeyon,oa,exposure
 
 http:
   - method: GET

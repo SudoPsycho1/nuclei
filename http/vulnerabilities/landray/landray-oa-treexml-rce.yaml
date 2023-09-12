@@ -13,7 +13,7 @@ info:
     max-request: 1
     verified: true
     fofa-query: app="Landray-OA系统"
-  tags: landray,oa,treexml,rce
+  tags: landray,oa,treexml,rce,oast
 
 http:
   - raw:

@@ -13,7 +13,7 @@ info:
     max-request: 1
     fofa-query: app="科迈-RAS系统"
     verified: true
-  tags: comai-ras,ras,kemai
+  tags: comai-ras,ras,kemai,auth-bypass
 
 http:
   - raw:

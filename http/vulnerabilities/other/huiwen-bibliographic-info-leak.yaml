@@ -10,7 +10,7 @@ info:
     max-request: 1
     fofa-query: app="汇文软件-书目检索系统"
     verified: true
-  tags: huiwen,exposure,misconfig
+  tags: huiwen,exposure,misconfig,exposure
 
 http:
   - raw:
@@ -21,12 +21,12 @@ http:
     matchers-condition: and
     matchers:
       - type: word
+        part: body
         words:
           - "host="
           - "port="
           - "user="
           - "password="
-        part: body
         condition: and
 
       - type: status

@@ -13,7 +13,7 @@ info:
     max-request: 2
     verified: true
     fofa-query: body="ActiveXObject" && body="dkey_login" && body="repeat-x"
-  tags: rce,topsec,topacm
+  tags: topsec,topacm,inrusive,rce
 
 http:
   - raw:

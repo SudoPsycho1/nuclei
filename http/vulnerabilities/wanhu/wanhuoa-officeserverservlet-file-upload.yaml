@@ -12,7 +12,7 @@ info:
     max-request: 1
     verified: true
     fofa-query: app="万户网络-ezOFFICE"
-  tags: wanhu,oa,officeserver,fileupload
+  tags: wanhu,oa,officeserver,fileupload,intrusive
 
 http:
   - method: GET
